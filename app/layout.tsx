@@ -8,10 +8,22 @@ import './globals.css'
 const _geist = Geist({ subsets: ['latin'] })
 const _geistMono = Geist_Mono({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'MP ITI Training Officer 2026 COPA - NEP Rank Predictor',
+export const metadata = {
+  title: "MP ITI TO Rank Predictor 2026 (COPA) – Check Your Rank Instantly",
   description:
-    'Predict your rank for MP ITI Training Officer 2026 COPA exam using NEP scoring.',
+    "Check your expected rank for MP ITI Training Officer 2026 COPA exam using NEP scoring. Instant result with cutoff prediction.",
+  keywords: [
+    "MP ITI TO rank predictor 2026",
+    "ITI TO cutoff 2026",
+    "Copa rank predictor",
+    "MP ESB rank calculator",
+    "Predict your rank for MP ITI Training Officer 2026 COPA exam",
+    "MP ITI TO expected rank 2026",
+    "MP ITI TO score predictor 2026",
+    "MP ITI TO rank estimation 2026",
+    "MP ITI TO copa result prediction 2026",
+    "MP ITI TO copa cutoff prediction 2026",
+  ],
 }
 
 export default function RootLayout({
@@ -21,6 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="UW4Kmv-r5cp1vHwSQOHwgi7j5kHDMbv1MzwrcIuVtLs" />
       <body className="font-sans antialiased">
 
         {children}

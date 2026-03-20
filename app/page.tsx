@@ -311,14 +311,14 @@ export default function HomePage() {
                           {SHIFTS.find((s) => s.id === entry.shift_id)?.label}
                         </p>
                       </div>
-                      <div className="text-right">
+                      {/* <div className="text-right">
                         <p className="font-semibold">
                           {Number(entry.proportionate_marks).toFixed(2)}
                         </p>
                         <p className="text-xs text-muted-foreground">
                           Proportionate Marks
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   ))}
                 </div>
